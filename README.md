@@ -10,7 +10,7 @@ Este repositorio implementa variantes de Variational Autoencoders y aprendizaje 
 - **VAE / β-VAE** (modelo base)  
 - **GMVAE** (prior como mezcla de Gaussianas)  
 - **SSVAE** (VAE semi-supervisado para clasificación en MNIST)  
-- Utilidades para: ELBO/IWAE, KL, reconstrucción, binarización, evaluación de lower bounds y accuracy.
+- mas utilidades para: ELBO/IWAE, KL, reconstrucción, binarización, evaluación de lower bounds y accuracy.
 
 ## resultados generales
 En conjunto de prueba de MNIST:
@@ -24,8 +24,8 @@ En conjunto de prueba de MNIST:
  - **generación de muestras al azar**: python3 generate_samples.py --model vae --run 0000 --iter_max 20000
  - **GMVAE**: python run_gmvae.py
  - **SSVAE supervisado**: python run_ssvae.py --gw 0
- - **SSVAE semi-supervisado**: python run_ssvae.py --gw 0
+ - **SSVAE semi-supervisado**: python run_ssvae.py 
 
 
 
-Proyecto realizado en el marco de ECI 2025 (UBA).
+Proyecto realizado en el marco de la ECI 2025 (FCEN-UBA).
