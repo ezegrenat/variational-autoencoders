@@ -28,4 +28,4 @@ En conjunto de prueba de MNIST:
 
 
 
-Proyecto realizado en el marco de la ECI 2025 (FCEN-UBA).
+<small>Proyecto realizado en el marco de la ECI 2025 (FCEN-UBA).</small>
